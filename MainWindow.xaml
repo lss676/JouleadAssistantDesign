@@ -1,0 +1,24 @@
+﻿<Window x:Class="JouleadAssistantDesign.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:JouleadAssistantDesign.ViewModels"
+        Title="Joulead 辅助设计系统" Height="600" Width="900">
+    <Window.DataContext>
+        <vm:MainWindowViewModel />
+    </Window.DataContext>
+    <DockPanel>
+        <!-- 第一位：停靠在上面的导航栏 -->
+        <StackPanel DockPanel.Dock="Top" 
+                Orientation="Horizontal" 
+                Background="{StaticResource PrimaryColor}" 
+                Height="40">
+            <Button Style="{StaticResource FlatButtonStyle}" Content="项目管理" Command="{Binding ShowProjectListCommand}" Margin="5"/>
+            <Button Style="{StaticResource FlatButtonStyle}" Content="项目配置" Command="{Binding ShowProjectConfigCommand}" Margin="5"/>
+            <Button Style="{StaticResource FlatButtonStyle}" Content="模板管理"  Command="{Binding ShowTemplateListCommand}" Margin="5"/>
+        </StackPanel>
+
+        <!-- 剩余空间：CurrentView 内容区 -->
+        <ContentControl Content="{Binding CurrentView}"/>
+    </DockPanel>
+</Window>
+
