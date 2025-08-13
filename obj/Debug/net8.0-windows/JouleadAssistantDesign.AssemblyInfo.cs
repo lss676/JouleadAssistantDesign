@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JouleadAssistantDesign")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e423207e36c2878ade43fd4c30ed2b4cb8e4b15b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fb89467bf1b251256acb13b71bb2f4896ea3a82")]
 [assembly: System.Reflection.AssemblyProductAttribute("JouleadAssistantDesign")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JouleadAssistantDesign")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

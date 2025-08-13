@@ -52,7 +52,7 @@ namespace JouleadAssistantDesign.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/JouleadAssistantDesign;component/views/projectconfigview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/JouleadAssistantDesign;V1.0.0.0;component/views/projectconfigview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ProjectConfigView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
